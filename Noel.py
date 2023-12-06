@@ -74,7 +74,7 @@ for i in range(200):
 t.color("dark red", "red")
 t.write("Merry Christmas", align="center", font=("Comic Sans MS", 40, "bold"))
 
-# Draw a star at the top of the tree
+# Phần vẽ ngôi sao
 t.penup()
 t.goto(0, 150)
 t.pendown()
@@ -106,3 +106,4 @@ def draw_snow():
 
 draw_snow()
 t.done()
+#Coder:Hung lỏ
